@@ -1,4 +1,4 @@
-# build-a-portfolie-site
+# build-a-portfolio-site
 
 This is my version of **Build a portfolio site** for _Udacity_
 
