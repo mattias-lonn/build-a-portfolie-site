@@ -166,10 +166,6 @@ footer img {
 }
 
 @media screen and (max-width: 527px) {
-	#content {
-		flex-wrap: wrap;
-		text-align: center
-	}
 
 	#a-nice-view {
 		height: 150px;
