@@ -71,11 +71,13 @@ header {
 .project-card {
 	border: 1px solid #BBB;
 	box-shadow: 2px 2px 4px 0 #eee;
-	width: 30%;
+	width: 29%;
 	text-align: center;
 	margin: 10px;
+	padding:5px;
 	display: inline-flex;
 	flex-wrap: wrap;
+	flex: 1;
 }
 .project-card:hover {
 	background-color: #EEE;
@@ -88,7 +90,6 @@ header {
 	font-style: italic;
 	font-size: 14px;
 	width: 100%;
-	margin:5px;
 }
 .p-link {
 	font-size: 2em;
@@ -116,18 +117,20 @@ footer {
 
 /* Here we set some breakpoints */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 806px) {
 	#content {
 		text-align: center
 	}
 	.project-card {
 		width: 45%;
+		margin: 2px;
+		padding:2px;
 	}
 	.big-font {
 		font-size: 2em;
 	}
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 500px) {
 	#a-nice-view {
 		height: 150px;
 		font-size: 2em;
