@@ -71,9 +71,9 @@ header {
 .project-card {
 	border: 1px solid #BBB;
 	box-shadow: 2px 2px 4px 0 #eee;
-	width: 32%;
+	width: 30%;
 	text-align: center;
-	margin-bottom: 20px;
+	margin: 10px;
 	display: inline-flex;
 	flex-wrap: wrap;
 }
@@ -106,10 +106,9 @@ a:hover {
 	color: #852;
 	text-decoration: underline;
 }
-#footer {
+footer {
 	width: 800px;
 	max-width: 100%;
-	background-color: #EEE;
 	text-align: center;
 	font-size: 13px;
 }
